@@ -1,10 +1,9 @@
+<!-- <pre>
+/
+// die();
+?></pre> -->
 
-<?php
-var_dump($_POST);
-die();
-?>
-
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
