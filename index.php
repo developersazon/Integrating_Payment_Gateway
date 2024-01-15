@@ -29,7 +29,7 @@
         <div class="text-center">
           <img
             class="mb-4"
-            src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png"
+            src="img/aamarpay_logo.png"
             style="width: 250px; "
           />
           
@@ -73,7 +73,7 @@
               </div>
 
               <!-- Submit button -->
-              <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+              <button data-mdb-ripple-init type="submit" class="btn btn-warning btn-block mb-4">Submit</button>
             </form>
           <!-- form end here -->
 
