@@ -26,7 +26,7 @@
         CURLOPT_POSTFIELDS =>'{
           "store_id": "aamarpaytest",
           "tran_id": " '.$random_id.' ",
-          "success_url": "http://localhost/task/success.php",
+          "success_url": "http://localhost/integration/success.php",
           "fail_url": "http://www.merchantdomain.com/failedpage.html",
           "cancel_url": "http://www.merchantdomain.com/cancellpage.html",
           "amount": "'.$amount.'",
@@ -53,8 +53,6 @@
 
       curl_close($curl);
       $data = json_decode($response, true);
-      // var_dump($data);
-      // die();
       $data_url = $data["payment_url"];
       header('Location: '.$data_url);
 
